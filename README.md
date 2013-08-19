@@ -4,6 +4,6 @@ Estou rodando essa aplicação com o Jetty - http://www.eclipse.org/jetty/ - e u
 
 Para o maven encontrar o jetty você precisa exportar a variável JETTY_HOME:
 
-export JETTY_HOME=<jetty_path>
+export JETTY_HOME= [jetty_path]
 
 Para executar a aplicação: mvn jetty:run
