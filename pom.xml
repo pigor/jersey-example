@@ -38,5 +38,10 @@
         </configuration>
 			</plugin>
     </plugins>
+    <sourceDirectory>/Users/pigor/projects/COSANPA/java-workspace/jersey-example/src/main/java</sourceDirectory>
+    <scriptSourceDirectory>/Users/pigor/projects/COSANPA/java-workspace/jersey-example/src/main/scripts</scriptSourceDirectory>
+    <testSourceDirectory>/Users/pigor/projects/COSANPA/java-workspace/jersey-example/src/test/java</testSourceDirectory>
+    <outputDirectory>/Users/pigor/projects/COSANPA/java-workspace/jersey-example/bin</outputDirectory>
+    <testOutputDirectory>/Users/pigor/projects/COSANPA/java-workspace/jersey-example/bin/test</testOutputDirectory>
   </build>
 </project>
