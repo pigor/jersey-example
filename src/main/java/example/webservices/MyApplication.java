@@ -6,6 +6,8 @@ import java.util.Set;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
+import example.domain.Unidade;
+
 @ApplicationPath("/")
 public class MyApplication extends Application {
 	@Override
@@ -13,6 +15,7 @@ public class MyApplication extends Application {
 		final Set<Class<?>> classes = new HashSet<Class<?>>();
 		// register root resource
 		classes.add(Hello.class);
+		classes.add(UnidadeController.class);
 		return classes;
 	}
 }

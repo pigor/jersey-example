@@ -10,11 +10,14 @@ import javax.ws.rs.core.MediaType;
 public class Hello {
 
 	@GET
-	@Produces(MediaType.TEXT_PLAIN)
-	public String hello(@PathParam("name") String name){
+	@Produces(MediaType.APPLICATION_JSON)
+	public String hello(@PathParam("name") String name){		
+		
+				
 		if(name.equals("")){
 			return "Hello stranger!!!";
 		}
-		return "Hello " + name + "!!!";
+		
+		return "Hello " + name + "!!! ";
 	}
 }
